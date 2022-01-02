@@ -1,0 +1,53 @@
+* {
+	font-family: 'Quicksand', sans-serif;
+	box-sizing: border-box;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: #eeeeee;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #61DBFB;
+	color: #393e46;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #eeeeee;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+a {
+	color: #eeeeee;
+}
+a img {
+	display: none;
+}
+a:hover img {
+	display: b;
+}
+
+#Purpose {background-color: #222831;}
+#Learning {background-color: #222831;}
+#Community {background-color: #222831;}
+#Showcase {background-color: #222831;}

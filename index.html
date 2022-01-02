@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Research Project: JS Libraries/Frameworks</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--one page tab html-->
+	<button class="tablink" onclick="openPage('Purpose', this, '#222831')">Purpose of React<img src="react-1-logo.png" alt="react logo" width="24" height="18"></button>
+	<button class="tablink" onclick="openPage('Learning', this, '#222831')" id="defaultOpen">Learning React<img src="react-1-logo.png" alt="react logo" width="24" height="18"></button>
+	<button class="tablink" onclick="openPage('Community', this, '#222831')">React Community<img src="react-1-logo.png" alt="react logo" width="24" height="18"></button>
+	<button class="tablink" onclick="openPage('Showcase', this, '#222831')">React Showcase<img src="react-1-logo.png" alt="react logo" width="24" height="18"></button>
+
+	<div id="Purpose" class="tabcontent">
+		<p>React is also known as “React.js” or “ReactJS.” React is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. React renders UI components and supports front-end and back-end. React is the “V” of the Model-View-Controller framework. With the MVC framework, developers can factor out components of an application and easily update them and we can organize the code by grouping their purpose. React is responsible for the view part of the MVC framework. The view part of the framework is all the functions that directly interact with the user.</p>
+		<p>React can be used to make a simple HTML page interactive and to create complex applications. Nitin Pandit of c-sharpcorner.com stated that “React allows developers to create large web applications that can change data, without reloading the page. The main purpose of React is to be fast, scalable, and simple. It works only on user interfaces in the application.”</p>
+		<p>Around 2011, the developers at Facebook started having issues with code maintenance. The Facebook Ads application was having a lot of cascading updates. Facebook’s code needed to be updated to be more efficient to handle the cascading updates and at the same time provide reasonably good user experience. Jordan Walke, a former employee of Facebook, created React. But Walke released an early prototype of React called "FaxJS,” which was deployed in 2011 on Facebook’s News Feed and 2012 on Instagram.</p>
+		<p>On the reactjs.org homepage you’ll notice the word “Declarative.” To clarify, React is declarative because it doesn’t tell a browser to do something. React tells the browser what the developer would like to happen and let’s the browser figure out how to do it. React has a helpful developer toolset which is its open-source library. React is easy to learn. But it’s better if you learn the essentials of programming, HTML, CSS, JavaScript. You’re basically telling the application what you would like to happen and not how you would like to represent a state. React has a huge and strong community of developers. On the reactjs.org website they feature Stack Overflow, and a list of popular discussion forums on DEV, Hashnode, Reactiflux, Reddit, and Spectrum. React is globally popular. Many well-known companies use this framework. Examples are Facebook, Instagram, Netflix, Reddit, BBC, UberEats, and Airbnb.</p>
+		
+		<p>Informative links relating to React:</p>
+
+		<p><a href="https://reactjs.org/">React – A JavaScript library for building user interfaces</a></p>
+		<p><a href="https://www.c-sharpcorner.com/">C# Corner - Community of Software and Data Developers</a></p>
+		<p><a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">Wikipedia React (JavaScript library)</a></p>
+		<p><a href="https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/">The History of React.js on a Timeline
+				| @RisingStack</a></p>
+		<p><a href="https://medium.com/@radubrehar/the-selling-point-of-react-2c612ea2e79b">The selling point of React. I've been
+				developing in React for more… | by Radu Brehar</a></p>
+		<p><a href="https://customerthink.com/benefits-of-reactjs-top-10-reasons-to-choose-it/">Benefits of ReactJS: Top 10 Reasons
+				to Choose It</a></p>
+		<p><a href="https://www.framer.com/blog/posts/react-vs-vanilla-js/">React vs. Plain JavaScript</a></p>
+		<p><a href="https://wiredelta.com/10-most-popular-reactjs-websites-2021/">10 Most Popular ReactJS Websites of 2021</a></p>
+	</div>
+	<div id="Learning" class="tabcontent">
+		<p>React is the most popular framework, next is Angular, then Vue.</p>
+		<p>When building applications or websites, the React framework gives the developer hi-level syntax that the developer writes in a declarative way that’s component focused. You can use React to control an entire page and for switching pages. First, we need to install the latest version of Node.js to install Create React App. In the Windows Terminal we navigate to our folder where we want to house our project and type in “npx create-react-app example-project-name.” We can use Visual Studio Code or other favorite IDE to work on our new React project. Academind recommended that using VSC is easier with React. React doesn’t render the custom elements we create in our components but runs the content returned by the custom elements. In React CSS we use the property name as the attribute for a CSS element. For example, using “className” instead of “class.”</p>
+		<p>React uses components that can be reused. When building a custom component, the name of a function must begin with a capital letter. Then we can add that function in App.js as an element. React internally differentiates between built-in lowercase HTML elements and uppercase custom elements by casing. So if your function begins with lowercase there will be an error. React components use props that become objects that may have text properties and corresponding values. In the component we can output dynamic expressions using {example single line only expression}.</p>
+		<p>According to Web Dev Simplified, the main dish of our app is in the src folder that contains all our style sheets, logos, JavaScript, and other files that are part of the src folder such as the index.js and the app.js component. In React you should never directly modify a state variable. Instead create a copy before modifying and then use that copy to set the new state.</p>
+
+		<p>Links to educational resources:</p>
+
+		<p>This React tutorial by Academind is about three hours, dated 5 May 2021: <a href="https://www.youtube.com/watch?v=Dorf8i6lCuk&list=WL&index=4">React Crash Course for Beginners 2021</a></p>
+		<p>This second tutorial, dated 22 October 2019, is by Web Dev Simplified: <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY&list=WL&index=2">Learn React in 30 Minutes</a></p>
+	</div>
+	<div id="Community" class="tabcontent">
+		<p>One of the most active ReactJS communities we found is Reddit’s React community. In our research Reddit’s React community appeared to be the most organized and beginner user friendly.</p>
+		<p>The <a href="https://www.reddit.com/r/reactjs/">/r/ReactJS</a> community was created 31 December 2013. There are 257K React developers in this community. As of the morning of 18 May 2021 there were 703 online. The moderators pinned a <a href="https://www.reddit.com/r/reactjs/comments/n2np08/beginners_thread_easy_questions_may_2021/">Beginner's Thread / Easy Questions (May 2021)</a>. This community has a <a href="https://www.reddit.com/r/reactjs/wiki/index#wiki_previous_threads">wiki<a>, posts <a href="https://www.reddit.com/r/reactjs/comments/nd21jq/whos_available_may_2021/">careers</a>, posts <a href="https://www.reddit.com/r/reactjs/?f=flair_name%3A%22Show%20%2Fr%2Freactjs%22">tutorials</a>, and includes related communities. Their About window states, “A community for learning and developing web applications using <a href="http://facebook.github.io/react/">React</a> by Facebook”.</p>
+		<p>This group has seven rules that participants must follow to participate.</p>
+		<ol>
+			<li>Be Kind</li>
+			<li>No bashing</li>
+			<li>Be inclusive</li>
+			<li>Some self promotion OK, Spam not OK</li>
+			<li>Demos should link source code or live demos</li>
+			<li>GitHub, not PornHub</li>
+			<li>Portfolios on Sundays only</li>
+		</ol>
+	</div>
+	<div id="Showcase" class="tabcontent">
+		<p>To examine websites created with React, we installed the React Developer Tools extension on our Chrome browser.</p>
+		<p>One of our favorite websites is <strong>Instagram</strong> which was developed with React in 2012. When we clicked on the React Dev Tools icon, it said, “This page is using the production build of React.” And there's a green checkmark next to this sentence. Our second favorite website is <strong>Reddit</strong>. React was first used to develop Reddit’s gift page then the mobile Reddit website then the main website. When we clicked on the React Dev Tools icon, it said, “This page is using the production build of React.” And there was a green checkmark next to this sentence.</p>
+		<p>On Instagram we visited the <strong>React(@reactjsofficial)</strong> page. We saw 16 components: two Component withRouter, 13 Component Memo, and one Component ForwardRef. On Reddit we saw 372 components! We saw Component withPageLayer, Component Memo, Component, Component Tracked, Component ForwardRef, Component key=”leftFlair” Memo, Component key=”rightFlair” Memo, Component key=”.0” withPageLayer, Component key=”Iota” Memo, Component key=”CurseofStrahd” Memo, Component key=”Bernedoodles” Memo, Component key=”bobdylan” Memo, and Component key=”caps” Memo.</p>
+		<p>We like <strong>Instagram</strong> because it clearly posts the profile’s information on one single page. To view more posts we can just scroll down the page. We can immediately see the profile photo or brand at the top of the page. we can instantly follow or block the profile. We can click on the profile’s stories. We can see all the profile’s posts. If we click on a post, the post is enlarged and we can like, comment and or share. All the mentioned interactions we make we can complete in that single window. The transitions are immediate. We don’t see anything we dislike.</p>
+		<p>We like <strong>Reddit</strong> because every post is enclosed in a box that may or may not have an image. In each box the Reddit user can instantly see the comments quantity, the award icon, share icon, save icon and three dots to either hide or report the post. The user can instantaneously interact with these icons. The user can click to see the best posts, the hot posts, the new posts, the top posts, and change how they would like to view the posts whether it be a card or classic or compact view.We haven’t found anything we dislike about this website.</p>
+		<p>We’re impressed with React because we can create an application or website with a UI that can easily move from state A to state B to state C back to state A without having to refresh the entire window. User experience is enhanced and user view to their interaction is instantaneous. We would definitely like to learn React because we know we can develop a great UI for users. We were also impressed with the quantity of developers which is over a quarter of a million in Reddit’s React community.</p>
+		<p>Developing an application or website with React is useful if we had to create complex applications and websites as big as Instagram and Reddit. Eventually all that Javascript that we need to add will become many lines of code. If we had to reuse a bunch of code we would have to retype or cut and paste many lines of code. With React we can just add a few more words to our component file or add another component file or files, add props, and we’ve created a bunch of reused components.</p>
+		<p>With React the UI occurs on the browser. In React you must split up the UI components. This works because each component keeps the code necessary to update and display the UI and helps to make the application easier to understand, and components are reusable. With React we have to define a constant to hold the input value. And this constant is set when the input changes. The application doesn't depend on the DOM. The application stores the entire current state in a JavaScript variable. React intuitively updates UI based on a set variable and changing state within a component.</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
